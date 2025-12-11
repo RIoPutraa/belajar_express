@@ -1,5 +1,32 @@
 {
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "mongose": "^0.0.2-security",
+    "slugify": "^1.6.6"
+  },
+  "name": "belajar_sesuatu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RIoPutraa/belajar_express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RIoPutraa/belajar_express/issues"
+  },
+  "homepage": "https://github.com/RIoPutraa/belajar_express#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
